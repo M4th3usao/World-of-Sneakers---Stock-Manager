@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    font-family: 'Inter';
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    background: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
+}
+
+.header p{
+    margin-left: 25px;
+}
+
+.menu{
+    margin: 5px;
+}
+
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+}
