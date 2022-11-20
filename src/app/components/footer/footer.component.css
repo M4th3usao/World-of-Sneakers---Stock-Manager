@@ -10,9 +10,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
-
-
-    height: 80px;
+    height: 22vh;
     background: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
 }
 

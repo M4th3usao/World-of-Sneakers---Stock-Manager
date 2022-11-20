@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { CatalogComponent } from './components/pages/catalog/catalog.component';
+import { AccountComponent } from './components/pages/account/account.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    HomeComponent,
+    AboutComponent,
+    CatalogComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
