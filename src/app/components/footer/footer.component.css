@@ -6,15 +6,38 @@
 
 .footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-    height: 22vh;
+    height: 23.8vh;
     background: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
 }
 
-
-.footer h3{
+.footer h2{
     margin-left: 25px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.content-footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer h3{
+    color: #dec129;
+}
+
+.content-footer h3{
+    padding: 20px;
+}
+
+.contacts{
+    display: flex;
+    padding-right: 15px;
+}
+
+.contacts-row{
+    display: flex;
+    padding: 25px;
 }
