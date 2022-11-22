@@ -24,6 +24,8 @@ body *{
 }
 
 .menu{
+    display: flex;
+    flex-direction: row;
     margin: 5px;
     margin-right: 25px;
 }
@@ -34,3 +36,12 @@ body *{
     color: #fff;
     font-size: 18px;
 }
+
+.menu a:hover{
+    color: #dec129;    
+}
+
+li{
+    list-style: none;
+}
+

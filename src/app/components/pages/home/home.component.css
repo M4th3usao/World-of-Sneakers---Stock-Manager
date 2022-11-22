@@ -27,19 +27,3 @@
     font-size: 18px;
 }
 
-
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: #dec129;
-
-    margin-top: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
-}
