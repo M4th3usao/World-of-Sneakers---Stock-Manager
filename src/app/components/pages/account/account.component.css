@@ -11,16 +11,32 @@
     height: 750px;
     border: 1px solid black;
     border-radius: 10px;
-    /* align-items: center; */
-    /* background-color: black; */
+    background-color: black;
 }
 
 .text-box{
-    display: flex;
-    background-color: red;
-    display:flex;
+    position: absolute;
     height: 100px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
 
+    font-size: 18px;
+    color: white;
+}
+
+.text-box h2{
+    color: #AC8EEB;
+}
+
+.text-box p{
+    padding-top: 25px;
+}
+
+.text-box a{
+    text-decoration: none;
+    color: #AC8EEB;
+    /* color: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93); */
 }
 
 .content-row{
@@ -37,7 +53,7 @@
     width: 300px;
     height: 350px;
 
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 #athlete{
