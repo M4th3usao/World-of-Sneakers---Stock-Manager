@@ -1,0 +1,27 @@
+.content-catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options{
+    display: flex;
+    width: 650px;
+    height: 120px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: black;
+
+}
+.btnCatalog button{
+    display: flex;
+    width: 150px;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
