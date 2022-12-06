@@ -32,3 +32,22 @@ li{
     background-color: #fff;
     border: 1px solid #dec129;
 } 
+
+/* .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-group label{
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: .4em;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.6em;
+    color: #777;
+    font-size: 0.8em;
+} */

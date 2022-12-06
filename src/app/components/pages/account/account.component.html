@@ -2,15 +2,30 @@
     <div class="box-content">
         <div class="text-box">
             <h2>Cadastre-se</h2>
-            <p>Já possui cadastro? Faça o seu <a href="">Login</a></p>
+            <p>Já possui cadastro? Faça o seu <a [routerLink]="['/login']">Login</a></p>
         </div>
 
         <div class="content-row">
             <div class="form-account">
                 <form action="">
-                    <input type="text">
-                    <label for=""></label>
+                    <div class="form-group">
+                        <input type="text" placeholder="Usuário" formControlName="title" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nome da Empresa">
+                        <label for=""></label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email">
+                        <label for=""></label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Senha">
+                        <label for=""></label>
+                    </div>
+                    
                 </form>
+                <a href="" class="btnForm">Concluir</a>
             </div>
             <img id="athlete" src="/assets/images/atleta1.png" alt="atletal de basquete">
         </div>

@@ -11,6 +11,9 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { CatalogComponent } from './components/pages/catalog/catalog.component';
 import { AccountComponent } from './components/pages/account/account.component';
 
+import { MatPaginatorModule } from '@angular/material';
+import { LoginComponent } from './components/pages/login/login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +23,13 @@ import { AccountComponent } from './components/pages/account/account.component';
     HomeComponent,
     AboutComponent,
     CatalogComponent,
-    AccountComponent
+    AccountComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
