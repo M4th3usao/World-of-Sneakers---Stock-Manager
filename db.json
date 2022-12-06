@@ -1,0 +1,41 @@
+{
+    "sneakers": [
+      {
+        "_id": 1,
+        "name": "Desenvolvimento para Dispositivos Móveis",
+        "brand": "Segunda",
+        "color": "pink"
+      },
+      {
+        "_id": 2,
+        "name": "Inglês",
+        "brand": "Terça",
+        "color": "violet"
+      },
+      {
+        "_id": 3,
+        "name": "Negócios e Marketing e Eletrônicos",
+        "brand": " Terça e Quarta",
+        "color": "orange"
+      },
+      {
+        "_id": 4,
+        "name": "Desenvolvimento para Servidores",
+        "brand": "Quinta",
+        "color": "blue"
+      },
+      {
+        "_id": 5,
+        "name": "Tópicos Especiais em Sistemas para Internet",
+        "brand": "Sexta",
+        "color": "red"
+      },
+      {
+        "_id": 6,
+        "name": "Projeto de Prototipagem e Testes de Usabilidade",
+        "brand": "Sábado",
+        "color": "branca"
+      }
+    ]
+  }
+  

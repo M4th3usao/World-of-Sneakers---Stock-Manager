@@ -1,3 +1,10 @@
+.catalog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .content-catalog{
     display: flex;
     justify-content: center;
@@ -20,8 +27,17 @@
     display: flex;
     width: 150px;
     height: 40px;
-
     justify-content: center;
     align-items: center;
+
+    background-color: #7544e0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
     margin: 15px;
+}
+
+hr{
+    margin: 25px;
+    width: 500px;
 }

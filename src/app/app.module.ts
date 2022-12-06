@@ -10,9 +10,14 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { CatalogComponent } from './components/pages/catalog/catalog.component';
 import { AccountComponent } from './components/pages/account/account.component';
-
-import { MatPaginatorModule } from '@angular/material';
 import { LoginComponent } from './components/pages/login/login.component';
+
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material';
+import { SneakersService } from './services/sneakers.service';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -27,11 +32,14 @@ import { LoginComponent } from './components/pages/login/login.component';
     LoginComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     MatPaginatorModule,
+    MatTableModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [SneakersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
