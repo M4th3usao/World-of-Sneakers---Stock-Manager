@@ -19,18 +19,21 @@ li{
     width: 150px;
     height: 30px;
     border: 1px solid black;
-    border-radius: 15px;
-    background-color: #dec129;
+    border-radius: 10px;
+    background-color: #7544e0;
 
     margin-top: 10px;
     text-decoration: none;
     font-weight: bold;
-    color: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93);
+    font-size: 16px;
+    color: white;
+    /* color: linear-gradient(0deg, rgba(78, 67, 208, 0.2), rgba(78, 67, 208, 0.2)), rgba(76, 82, 173, 0.93); */
 }
 
 .btn:hover{
     background-color: #fff;
-    border: 1px solid #dec129;
+    color: #7544e0;
+    border: 1px solid #7544e0;
 } 
 
 /* .form-group{
