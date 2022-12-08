@@ -13,7 +13,7 @@ import { AccountComponent } from './components/pages/account/account.component';
 import { LoginComponent } from './components/pages/login/login.component';
 
 import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatCheckboxModule, MatFormFieldModule, MatIconModule, MatInputModule, MatListModule, MatPaginatorModule, MatRadioModule, MatSelectModule, MatSidenavModule, MatSnackBarModule, MatToolbarModule } from '@angular/material';
 import { SneakersService } from './services/sneakers.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
@@ -37,7 +37,21 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     MatPaginatorModule,
     MatTableModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatSnackBarModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatTableModule,
+    MatRadioModule,
+    MatInputModule,
+    MatIconModule,
+    MatListModule,
+    MatCardModule
   ],
   providers: [SneakersService],
   bootstrap: [AppComponent]

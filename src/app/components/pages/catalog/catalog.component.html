@@ -12,5 +12,28 @@
             </div>
         </div>
     </div>
-    <hr>
+    <hr class="hr-btn">
+
+    <div class="list">
+      <ul>
+          <li *ngFor="let sneaker of sneakers">
+            <div class="li-row">
+              <div class="content-li">
+                <strong>Nome:</strong> {{ sneaker.name}} <br>
+                <strong>Marca:</strong> {{ sneaker.brand}} <br>
+                <strong>Cor:</strong> {{ sneaker.color }}<br>
+                <button class="btn-li" (click)="removeSneaker(sneaker)">Excluir</button>
+                <button class="btn-li" (click)="removeSneaker(sneaker)">Editar</button>
+              </div>
+
+              <div class="img-info-sneaker">
+                <img class="img-sneaker" src="/assets/images/tenis-home.png" alt="imagem do calçado">
+              </div>
+              
+            </div>  
+          </li>
+      </ul>
+    </div> 
+    
 </div>
+

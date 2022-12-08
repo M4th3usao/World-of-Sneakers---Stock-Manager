@@ -1,41 +1,40 @@
 {
-    "sneakers": [
-      {
-        "_id": 1,
-        "name": "Desenvolvimento para Dispositivos Móveis",
-        "brand": "Segunda",
-        "color": "pink"
-      },
-      {
-        "_id": 2,
-        "name": "Inglês",
-        "brand": "Terça",
-        "color": "violet"
-      },
-      {
-        "_id": 3,
-        "name": "Negócios e Marketing e Eletrônicos",
-        "brand": " Terça e Quarta",
-        "color": "orange"
-      },
-      {
-        "_id": 4,
-        "name": "Desenvolvimento para Servidores",
-        "brand": "Quinta",
-        "color": "blue"
-      },
-      {
-        "_id": 5,
-        "name": "Tópicos Especiais em Sistemas para Internet",
-        "brand": "Sexta",
-        "color": "red"
-      },
-      {
-        "_id": 6,
-        "name": "Projeto de Prototipagem e Testes de Usabilidade",
-        "brand": "Sábado",
-        "color": "branca"
-      }
-    ]
-  }
-  
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "Jordan Low",
+      "brand": "Nike",
+      "color": "Black and red"
+    },
+    {
+      "id": 2,
+      "name": "Adizero",
+      "brand": "Adidas",
+      "color": "Cloud white / Lucid Blue / Lucid Fuchsia"
+    },
+    {
+      "id": 3,
+      "name": "Wave Mirai 2",
+      "brand": "Mizuno",
+      "color": "Azul Escuro"
+    },
+    {
+      "id": 4,
+      "name": "Wave Mirai 4",
+      "brand": "Mizuno",
+      "color": "Azul Escuro"
+    },
+    {
+      "id": 5,
+      "name": "Smash V3",
+      "brand": "Puma",
+      "color": "Black"
+    },
+    {
+      "id": 6,
+      "name": "Wave Prophecy 11-S",
+      "brand": "Mizuno",
+      "color": "cinza"
+    }
+  ]
+}

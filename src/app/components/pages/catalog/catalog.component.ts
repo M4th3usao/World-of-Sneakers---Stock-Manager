@@ -1,9 +1,6 @@
 import { Component, OnInit, ViewChild} from '@angular/core';
-import {MatTable} from '@angular/material';
 import { SneakersService } from 'src/app/services/sneakers.service';
 import { Sneaker } from '../../Sneaker';
-import { HttpClientModule } from '@angular/common/http';
-
 
 @Component({
   selector: 'app-catalog',
@@ -13,7 +10,29 @@ import { HttpClientModule } from '@angular/common/http';
 
 export class CatalogComponent implements OnInit {
 
-  constructor() { }
+  sneakers: Sneaker[] = [];
+
+  sneaker = {
+    name: 'Nike Shox',
+    brand: 'Nike',
+    color: 'gray'
+  }
+
+  constructor(private sneakersService: SneakersService) { 
+    this.getSneakers()
+  }
 
   ngOnInit(): void {}
+  
+
+  getSneakers(): void{
+    this.sneakersService.getAll().subscribe((sneakers) => (this.sneakers = sneakers));
+  }
+
+  removeSneaker(sneaker: Sneaker){
+    console.log('Removendo calçado');
+    this.sneakers = this.sneakers.filter((a) => sneaker.name !== a.name);
+    this.sneakersService.remove(sneaker.id).subscribe();
+
+  }
 }
