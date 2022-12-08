@@ -24,6 +24,10 @@
     margin-top: 75px;
 
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about-content-text :nth-child(1){
