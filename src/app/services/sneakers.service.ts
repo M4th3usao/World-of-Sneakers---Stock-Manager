@@ -23,7 +23,4 @@ export class SneakersService {
   remove(id: number){
     return this.http.delete<Sneaker>(`${this.apiUrl}/${id}`);
   }
-  // removeSneaker(sneakers: Sneaker[], sneaker: Sneaker){
-  //   return sneakers.filter((a) => sneaker.name !== a.name)
-  // }
 }
